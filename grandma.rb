@@ -1,14 +1,9 @@
-def speak_to_grandma(grandma)
-  response = grandma
-  if response == response.downcase
-return "HUH?! SPEAK UP, SONNY!"
-elsif 
-  response == response.upcase && "I LOVE YOU GRANDMA!"
-  return "NO, NOT SINCE 1938!"
-else  
-  response == "I LOVE YOU GRANDMA!"
-  return "I LOVE YOU TOO PUMPKIN!"
-end
+def speak_to_grandma(string)
+  if string != string.upcase
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif string.upcase
+    return "NO, NOT SINCE 1938!"
+  end
 end
   
   
